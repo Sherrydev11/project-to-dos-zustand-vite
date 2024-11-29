@@ -1,11 +1,12 @@
 import React from "react";
 import { TaskInput } from "./components/TaskInput";
 import { TaskList } from "./components/TaskList";
-import { useTodoStore } from "./store/todoStore";
+import { useTodoStore } from "./store/todoStore"; // Only keep used imports
 import "./App.css";
 
-export const App = () => {
+export const App: React.FC = () => {
   const todos = useTodoStore((state) => state.todos);
+
   const totalTasks = todos.length;
   const uncompletedTasks = todos.filter((todo) => !todo.completed).length;
 
@@ -21,5 +22,3 @@ export const App = () => {
     </main>
   );
 };
-
-export default App;
