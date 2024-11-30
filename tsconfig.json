@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",                                  /* Use the latest JavaScript features. */
+    "module": "esnext",                                  /* Enable module-based code for bundlers like Vite/Webpack. */
+    "jsx": "react-jsx",                                  /* Enable modern React JSX support. */
+    "lib": ["dom", "dom.iterable", "esnext"],            /* Specify libraries for modern JavaScript and browser APIs. */
+    "esModuleInterop": true,                             /* Ensure compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,            /* Enforce consistent casing in file imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                               /* Report errors for untyped variables. */
+    "strictNullChecks": true,                            /* Enforce strict null and undefined handling. */
+    "strictFunctionTypes": true,                         /* Enable strict checks on function parameters and return types. */
+    "strictBindCallApply": true,                         /* Ensure correct usage of .bind(), .call(), and .apply(). */
+    "noUnusedLocals": true,                              /* Report errors for unused variables. */
+    "noUnusedParameters": true,                          /* Report errors for unused function parameters. */
+    "noImplicitReturns": true,                           /* Ensure all code paths in functions return a value. */
+    "noFallthroughCasesInSwitch": true,                  /* Report errors for fallthrough cases in switch statements. */
+
+    /* Module Resolution */
+    "moduleResolution": "node",                          /* Use Node.js-style module resolution. */
+    "resolveJsonModule": true,                           /* Allow importing .json files. */
+
+    /* Emit */
+    "noEmit": true,                                      /* Do not emit compiled JavaScript files. */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking for all .d.ts files to speed up builds. */
+  },
+  "include": ["src"],                                     /* Include the 'src' folder for TypeScript files. */
+  "exclude": ["node_modules"]                            /* Exclude the 'node_modules' directory. */
+}
