@@ -8,3 +8,4 @@ One challenge we faced with using Zustand was understanding how to update the st
 updated readme: So in this weeks project we were to convert this react project to TypeScript so this is what we did.
 
 View it live:
+https://taskmaster8.netlify.app/
